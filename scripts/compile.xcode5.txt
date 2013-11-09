@@ -1,0 +1,84 @@
+
+
+
+CompileC 
+/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/Objects-normal/armv7/ipc_listener.o 
+/Users/builder/git-local/runnable-zmq-for-xcode/zeromq-4.0.1/src/ipc_listener.cpp 
+normal 
+armv7 
+c++ 
+com.apple.compilers.llvm.clang.1_0.compiler
+
+    cd /Users/builder/git-local/runnable-zmq-for-xcode/runnable-zmq
+	    setenv LANG en_US.US-ASCII
+		    setenv PATH "/Users/builder/Downloads/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/builder/Downloads/Xcode5-DP6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+			    /Users/builder/Downloads/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+				-x c++ 
+				-arch armv7 
+				-fmessage-length=0 
+				-fdiagnostics-show-note-include-stack 
+				-fmacro-backtrace-limit=0 
+				-std=gnu++11 
+				-stdlib=libc++ 
+				-fmodules 
+				-fmodules-cache-path=/Users/builder/Library/Developer/Xcode/DerivedData/ModuleCache 
+				-Wno-trigraphs 
+				-fpascal-strings 
+				-O0 
+				-Wno-missing-field-initializers 
+				-Wno-missing-prototypes 
+				-Werror=return-type 
+				-Werror=deprecated-objc-isa-usage 
+				-Werror=objc-root-class 
+				-Wno-non-virtual-dtor 
+				-Wno-overloaded-virtual 
+				-Wno-exit-time-destructors 
+				-Wno-missing-braces 
+				-Wparentheses 
+				-Wswitch 
+				-Wunused-function 
+				-Wno-unused-label 
+				-Wno-unused-parameter 
+				-Wunused-variable 
+				-Wunused-value 
+				-Wempty-body 
+				-Wuninitialized 
+				-Wno-unknown-pragmas 
+				-Wno-shadow 
+				-Wno-four-char-constants 
+				-Wno-conversion 
+				-Wconstant-conversion 
+				-Wint-conversion 
+				-Wbool-conversion 
+				-Wenum-conversion 
+				-Wno-shorten-64-to-32 
+				-Wno-newline-eof 
+				-Wno-c++11-extensions 
+				-DDEBUG=1 
+				-isysroot /Users/builder/Downloads/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk 
+				-fstrict-aliasing 
+				-Wdeprecated-declarations 
+				-Winvalid-offsetof 
+				-g 
+				-fvisibility-inlines-hidden 
+				-Wno-sign-conversion 
+				-miphoneos-version-min=7.0 
+				-iquote /Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/runnable-zmq-generated-files.hmap 
+				-I/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/runnable-zmq-own-target-headers.hmap 
+				-I/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/runnable-zmq-all-target-headers.hmap 
+				-iquote /Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/runnable-zmq-project-headers.hmap 
+				-I/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Products/Debug-iphoneos/include 
+				-I../zeromq-4.0/include 
+				-I/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/DerivedSources/armv7 
+				-I/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/DerivedSources 
+				-F/Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Products/Debug-iphoneos 
+				-include /Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/PrecompiledHeaders/runnable-zmq-Prefix-fexpaxpmdywquuhadoonwkkffkpx/runnable-zmq-Prefix.pch 
+				-MMD 
+				-MT dependencies 
+				-MF /Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/Objects-normal/armv7/ipc_listener.d 
+				--serialize-diagnostics /Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/Objects-normal/armv7/ipc_listener.dia 
+				-c /Users/builder/git-local/runnable-zmq-for-xcode/zeromq-4.0.1/src/ipc_listener.cpp 
+				-o /Users/builder/Library/Developer/Xcode/DerivedData/runnable-zmq-bojlncefcnsryugqofszgvdttlkt/Build/Intermediates/runnable-zmq.build/Debug-iphoneos/runnable-zmq.build/Objects-normal/armv7/ipc_listener.o
+
+
